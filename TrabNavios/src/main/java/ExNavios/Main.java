@@ -23,8 +23,9 @@ public class Main {
      */
     public static void main (String[]args){
         Porto porto1 = new Porto(10);
-        Petroleiro petro1 = new Petroleiro("65-AC-XE", "Petroleiro1", 250, 100);
-        PortaContentores cont1 = new PortaContentores("A5-43-VH", "PtContentor1", 400, 300);
+        Petroleiro petro1 = new Petroleiro("PO-ER-10", "Petroleiro", 700, 240);
+        PortaContentores cont1 = new PortaContentores("A5-43-VH", "PtContentor1", 300, 500);
+        PortaContentores cont2 = new PortaContentores("JH-90-AC", "PtContentor2", 900, 150);
         porto1.addNavio(petro1);
         porto1.addNavio(cont1);
         
